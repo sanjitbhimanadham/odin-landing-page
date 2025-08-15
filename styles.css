@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body, .subtext, .hero-main-text, .placeholder-text {
+body,
+.subtext,
+.hero-main-text,
+.placeholder-text {
     margin: 0;
     padding: 0;
 }
@@ -11,6 +14,7 @@ body {
 
 ul {
     display: flex;
+    justify-content: right;
     gap: 24px;
     list-style: none;
     margin: 0;
@@ -19,9 +23,6 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -51,9 +52,14 @@ a {
     gap: 50px;
 }
 
-.hero-main-text {
+h1 {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .placeholder-img {
@@ -84,4 +90,59 @@ a {
     margin-top: 12px;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Section 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px 208px 123px 208px;
+    gap: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.illustration {
+    box-sizing: content-box;
+    height: 168px;
+    width: 168px;
+    background-color: white;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.subtext {
+    margin-top: 7px;
+    font-size: 18px;
+    color: #4B5563;
+    text-align: center;
+    width: 168px;
+}
+
+/* Section 3 */
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 48px 123px 208px 208px;
+    gap: 50px;
 }
