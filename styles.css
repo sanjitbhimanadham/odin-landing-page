@@ -51,6 +51,12 @@ a {
     background-color: #1F2937;
     padding: 133px 208px;
     gap: 50px;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.hero {
+    flex: 1;
+    min-width: 300px; /* Minimum width before wrapping */
 }
 
 h1 {
@@ -70,6 +76,7 @@ h1 {
     flex-shrink: 0;
     height: 240px;
     width: 522px;
+    max-width: 100%; /* Prevent overflow */
     background-color: #6D747D;
     color: #FFFFFF;
 }
@@ -176,13 +183,15 @@ h2 {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    height: 150px;
+    min-height: 150px;
     max-width: 1024px;
     width: 100%;
     background-color: #3882f6;
     border-radius: 15px;    
     color: #FFFFFF;
-    padding: 0 122px;
+    padding: 30px 122px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 h6 {
