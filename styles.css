@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 body,
 .subtext,
@@ -143,6 +144,22 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 48px 123px 208px 208px;
-    gap: 50px;
+    padding: 131px 320px 123px 320px;
+}
+
+.quote {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.source {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 50px;
+    margin: 0px;
 }
